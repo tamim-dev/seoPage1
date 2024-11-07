@@ -1,0 +1,98 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    width: 140%;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f2f4f7;
+}
+
+.card .card-progress-bar {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.card .card-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.client-row{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    overflow-y: scroll;
+    height: 83vh;
+}
+
+.client-row::-webkit-scrollbar {
+    width: 6px;
+}
+
+.client::-webkit-scrollbar-thumb {
+    background-color: #0071bd;
+    border-radius: 10px;
+}
+
+.client-card {
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.client-card .client-profile {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.client-card .client-profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-card .client-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+.client-card .client-card-tag {
+    background-color: #f2f4f7;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.client-card .client-card-des {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.client-card .client-card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.client-card .client-count {
+    padding: 6px;
+    width: 16px;
+    height: 16px;
+    background-color: #f2f4f7;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
