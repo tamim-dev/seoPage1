@@ -1,7 +1,7 @@
 import ClientCard from "./common/ClientCard";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { IDataItem } from "../model/Dataitem";
+import { IDataItem } from "../model/DataItem";
 
 const UnderReview = () => {
     const [data, setData] = useState<IDataItem[]>([]);

@@ -3,7 +3,7 @@ import { FaLayerGroup } from "react-icons/fa6";
 import { IoPricetag } from "react-icons/io5";
 import { RiAttachment2, RiWechatLine } from "react-icons/ri";
 import { MdOutlineDateRange } from "react-icons/md";
-import { IDataItem } from "../../model/Dataitem";
+import { IDataItem } from "../../model/DataItem";
 import axios from "axios";
 
 import profile from "../../assets/images/images.jpeg";
