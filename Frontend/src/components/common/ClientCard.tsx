@@ -30,7 +30,7 @@ const ClientCard: FC<IDataItemProps> = ({ data }) => {
                 setAttachmentId(attachment._id);
                 try {
                     await axios.put(
-                        `http://localhost:8000/update-attachment/${attachment._id}`
+                        `https://seopage1-t8rr.onrender.com/update-attachment/${attachment._id}`
                     );
                     setCount(count + 1);
                 } catch (error) {
@@ -94,7 +94,7 @@ const ClientCard: FC<IDataItemProps> = ({ data }) => {
                                     </>
                                 )}
                                 {action.type === "attachment" && (
-                                    <label>
+                                    <label style={{ cursor: "pointer" }}>
                                         <input
                                             onChange={(e) =>
                                                 handleFile(e, item)

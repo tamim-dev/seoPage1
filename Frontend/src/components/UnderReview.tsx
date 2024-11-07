@@ -7,7 +7,7 @@ const UnderReview = () => {
     const [data, setData] = useState<IDataItem[]>([]);
     useEffect(() => {
         axios
-            .get("http://localhost:8000/upload-data")
+            .get("https://seopage1-t8rr.onrender.com/upload-data")
             .then((response) => {
                 setData(response.data.data);
             })
